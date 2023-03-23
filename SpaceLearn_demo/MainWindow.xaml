@@ -1,0 +1,217 @@
+﻿<Window x:Class="SpaceLearn_demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceLearn_demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="DimGray">
+
+    <StackPanel Orientation="Vertical">
+
+        <Grid>
+            <Grid HorizontalAlignment="Left" Width="auto" x:Name="grid01">
+
+                <Border BorderThickness="0,0,2,0" CornerRadius="0" BorderBrush="White">
+                    
+                    <Grid Background="#FF232323" Width="auto" x:Name="newMenu" Height="1000">
+                        
+                        <Grid Width="auto" Background="Transparent" VerticalAlignment="Top" >
+                            <StackPanel>
+                                <Grid Width="auto" Background="DeepSkyBlue">
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="\Images\image05.png" Height="30" Width="30" Margin="8"/>
+
+                                </Grid>
+                                
+                                <Button VerticalAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Width="auto" BorderThickness="0" Margin="8" >
+                                <Button.Content>
+                                    <Grid Width="auto">
+                                        
+                                        <Image Source="\Images\image01.png" Height="30" Width="30" Margin="1"/>
+                                    </Grid>
+                                </Button.Content>
+                            </Button>
+
+                                <Button VerticalAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Width="auto" BorderThickness="0" Margin="8" >
+                                <Button.Content>
+                                    <Grid Width="auto">
+
+                                        <Image Source="\Images\image02.png" Height="30" Width="30" Margin="1"/>
+                                    </Grid>
+                                </Button.Content>
+                            </Button>
+                                <Button VerticalAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Width="auto" BorderThickness="0" Margin="8" >
+                                <Button.Content>
+                                    <Grid Width="auto">
+
+                                        <Image Source="\Images\image03.png" Height="30" Width="30" Margin="1"/>
+                                    </Grid>
+                                </Button.Content>
+                            </Button>
+                                <Button VerticalAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Width="auto" BorderThickness="0" Margin="8" >
+                                <Button.Content>
+                                    <Grid Width="auto">
+
+                                        <Image Source="\Images\image04.png" Height="30" Width="30" Margin="1"/>
+                                    </Grid>
+                                </Button.Content>
+                            </Button>
+
+                                <Button VerticalAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Width="auto" BorderThickness="0" Margin="8" Click="Button_Click" >
+                                    <Button.Content>
+                                        <Grid Width="auto">
+
+                                            <Image Source="\Images\image08.png" Height="30" Width="30" Margin="1"/>
+                                        </Grid>
+                                    </Button.Content>
+                                </Button>
+                            </StackPanel>
+
+                        </Grid>
+                    </Grid>
+                </Border>
+  
+
+    <Border BorderThickness="0,0,2,0" CornerRadius="0" BorderBrush="White">
+
+                    <StackPanel>
+
+                        <Grid Width="auto" Panel.ZIndex="1" Height="10000" x:Name="grid02" >
+
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+
+                                    <GradientStop Color="#FF232323" Offset="0" />
+
+                                </LinearGradientBrush>
+                            </Grid.Background>
+
+
+
+                            <StackPanel Orientation="Vertical">
+
+                                <Border BorderThickness="0,0,0,2" CornerRadius="0" BorderBrush="White">
+                                    <Grid Width="auto" Background="DeepSkyBlue">
+                                    
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                    
+                                        <TextBlock Foreground="White" Grid.Column="1" Grid.Row="0" Margin="8">
+                                    UnknownUser<LineBreak/>unknownemail@email.com
+                                        </TextBlock>
+                                        <Image Source="\Images\image05.png" Height="32" Width="32" Grid.Column="0" Grid.Row="0" Margin="8"/>
+                                    
+                                </Grid>
+                                </Border>
+                                <Button Foreground="White" Background="Transparent" Margin="5" BorderThickness="0" HorizontalContentAlignment="Left" Padding="10">
+                                    <Button.Content>
+                                        <Grid Width="auto">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="1">Topics</TextBlock>
+                                            <Image Grid.Row="0" Grid.Column="0" Source="\Images\image01.png" Height="20" Width="20" Margin="1"></Image>
+                                        </Grid>
+                                    </Button.Content>
+                                </Button>
+                                <Button Foreground="White" Background="Transparent" Margin="5" BorderThickness="0" HorizontalContentAlignment="Left" Padding="10">
+                                    <Button.Content>
+                                        <Grid Width="auto   ">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="1">Quizzes</TextBlock>
+                                            <Image Grid.Row="0" Grid.Column="0" Source="\Images\image02.png" Height="20" Width="20" Margin="1"></Image>
+                                        </Grid>
+                                    </Button.Content>
+                                </Button>
+                                <Button Foreground="White" Background="Transparent" Margin="5" BorderThickness="0" HorizontalContentAlignment="Left" Padding="10">
+                                    <Button.Content>
+                                        <Grid Width="auto   ">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="1">Calendar</TextBlock>
+                                            <Image Grid.Row="0" Grid.Column="0" Source="\Images\image03.png" Height="20" Width="20" Margin="1"></Image>
+                                        </Grid>
+                                    </Button.Content>
+                                </Button>
+                                <Button Foreground="White" Background="Transparent" Margin="5" BorderThickness="0" HorizontalContentAlignment="Left" Padding="10">
+                                    <Button.Content>
+                                        <Grid Width="auto   ">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="1">Settings</TextBlock>
+                                            <Image Grid.Row="0" Grid.Column="0" Source="\Images\image04.png" Height="20" Width="20" Margin="1"></Image>
+
+                                        </Grid>
+                                    </Button.Content>
+                                </Button>
+                                <Grid Background="DimGray" VerticalAlignment="Bottom">
+                                    <TextBlock></TextBlock>
+                                </Grid>
+                                <Grid>
+                                    <Button Background="Transparent" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="8" BorderThickness="0" Click="arrow_Click">
+                                        <Button.Content>
+                                            <Image Source="\Images\image07.png" Height="20" Width="20"/>
+                                        </Button.Content>
+                                    </Button>
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+        </Grid>
+    </StackPanel>
+    
+    
+</Window>

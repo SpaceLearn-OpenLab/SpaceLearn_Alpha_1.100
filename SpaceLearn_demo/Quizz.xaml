@@ -1,0 +1,19 @@
+﻿<Window x:Class="SpaceLearn_demo.Quizz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceLearn_demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Name="QuizCanvas" Background="gray">
+        <Label Name="questionNum" FontSize="20">Question number:</Label>
+        <TextBlock Name="questionText" FontSize="19" TextAlignment="Center" Canvas.Left="86" Canvas.Top="102" HorizontalAlignment="Left" VerticalAlignment="Center" Width="628" >
+            Question Text
+        </TextBlock>
+        <Button Name="ans1" Background="White" Click="checkAnswer" Content="Answer 1" Width=" 200" Height="50" Tag="0" Canvas.Left="86" Canvas.Top="167" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Name="ans2" Background="White" Click="checkAnswer" Content="Answer 2" Width=" 200" Height="50" Tag="0" Canvas.Top="316" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="86"/>
+        <Button Name="ans3" Background="White" Click="checkAnswer" Content="Answer 3" Width=" 200" Height="50" Tag="0" Canvas.Left="514" Canvas.Top="167" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Name="ans4" Background="White" Click="checkAnswer" Content="Answer 4" Width=" 200" Height="50" Tag="0" Canvas.Left="514" Canvas.Top="316" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+    </Canvas>
+</Window>
