@@ -8,19 +8,24 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\biker\\.nuget\\packages\\": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\biker\\Source\\Repos\\SpaceLearn_Alpha_1.000\\SpaceLearn_demo\\SpaceLearn_demo.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\SpaceLearn_Alpha_1.100\\SpaceLearn_demo\\SpaceLearn_demo.csproj",
       "projectName": "SpaceLearn_demo",
-      "projectPath": "C:\\Users\\biker\\Source\\Repos\\SpaceLearn_Alpha_1.000\\SpaceLearn_demo\\SpaceLearn_demo.csproj",
-      "packagesPath": "C:\\Users\\biker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\biker\\Source\\Repos\\SpaceLearn_Alpha_1.000\\SpaceLearn_demo\\obj\\",
+      "projectPath": "C:\\Users\\andre\\Source\\Repos\\SpaceLearn_Alpha_1.100\\SpaceLearn_demo\\SpaceLearn_demo.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Source\\Repos\\SpaceLearn_Alpha_1.100\\SpaceLearn_demo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\biker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
