@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -23,31 +24,23 @@ namespace SpaceLearn_demo
         public MainWindow()
         {
             InitializeComponent();
+            text01.Visibility= Visibility.Visible;
+            text02.Visibility= Visibility.Visible;
+            text03.Visibility= Visibility.Visible;
+            text04.Visibility= Visibility.Visible;
+            text05.Visibility= Visibility.Visible;
+
+            
         }
-        public void Image()
-        {
-           
-        }
+
         private void arrow_Click(object sender, RoutedEventArgs e)
         {
-            grid02.Visibility = Visibility.Collapsed;
 
-            newMenu.Visibility = Visibility.Visible;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BTN_01_Click(object sender, RoutedEventArgs e)
         {
-            grid02.Visibility = Visibility.Visible;
 
-            newMenu.Visibility = Visibility.Collapsed;
         }
-
-
-
-        //private void Quiz_window(object sender, RoutedEventArgs e)
-        //{
-        //    Uri uri = new Uri("Page1.xaml", UriKind.Relative);
-        //    this.NavigationService.Navigate(uri);
-        //}
     }
 }
